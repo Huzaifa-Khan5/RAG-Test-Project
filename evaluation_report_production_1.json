@@ -1,0 +1,78 @@
+{
+  "Business ID": "production_1",
+  "total_tests": 10,
+  "Passed Tests": 7,
+  "Failed Tests": 3,
+  "Details": [
+    {
+      "Question": "What is SmartChat AI?",
+      "SmartAI Ans": "SmartChat AI is a live chat platform designed specifically for small, independent restaurants. It enhances customer interactions through a web-based chat interface, allowing for real-time communication directly on the restaurant\u2019s website without the need for downloads or app installations. The platform provides features that enable restaurant staff to manage communications effectively, ensuring timely and personalized service for customers. SmartChat AI also utilizes AI to offer instant, automated responses to customer inquiries, transforming the restaurant's website into a 24/7 communication hub. This solution aims to streamline customer interactions, making communication more accessible and efficient for both staff and diners.",
+      "Actual Ans": "SmartChat AI is a live chat platform designed to enhance interactions between small, independent restaurants and their customers through a web-based chat interface. It facilitates real-time interactions directly on the restaurant\u2019s website.",
+      "Test Status": "pass",
+      "similarity_score": 0.9355080813351775
+    },
+    {
+      "Question": "What sets SmartChat AI apart from other live chat solutions?",
+      "SmartAI Ans": "SmartChat AI sets itself apart from other live chat solutions by allowing conversations to extend beyond the restaurant\u2019s website through its mobile app, enabling customers to continue dialogues on-the-go, similar to text messaging. Additionally, it provides fully automated responses to 80% of customer inquiries, understands real questions, and delivers accurate answers while escalating complex issues as needed. This combination of features enhances convenience for customers and ensures personalized service without tying up restaurant staff.",
+      "Actual Ans": "Unlike typical live chat solutions, SmartChat AI extends conversations beyond the restaurant\u2019s website, allowing customers to continue chatting through the SmartChat AI mobile app, ensuring convenience and accessibility.",
+      "Test Status": "pass",
+      "similarity_score": 0.8729148852247464
+    },
+    {
+      "Question": "Why do restaurants need an AI strategy now?",
+      "SmartAI Ans": "Restaurants need an AI strategy now because the dining landscape is rapidly evolving, and AI provides significant opportunities to enhance customer experiences, streamline operations, and gain competitive advantages. With changes in how customers interact with restaurants, there is a growing expectation for instant responses without needing phone calls. AI-driven solutions can automate routine inquiries, reduce the burden on staff, and improve service efficiency. Embracing AI is not merely about keeping pace with technology; it's about leading in the hospitality sector through innovative and memorable service.",
+      "Actual Ans": "Every restaurant needs an AI strategy to enhance customer experiences, streamline operations, and gain competitive advantages in a rapidly evolving dining landscape.",
+      "Test Status": "pass",
+      "similarity_score": 0.8850080795561411
+    },
+    {
+      "Question": "How does SmartChat AI make money?",
+      "SmartAI Ans": "SmartChat AI makes money by operating on a unique free trial model. This model allows restaurants to access their comprehensive suite of live chat features, including the advanced \u2018Tap. Review. Convert.\u2019 functionality, for free during a 90-day trial period. After this trial, the company likely monetizes by offering subscription plans or paid services to continue using the live chat features and tools that enhance customer interaction and operational efficiency.",
+      "Actual Ans": "SmartChat AI operates on a unique free trial model, offering full access to features for 90 days, after which restaurants can choose to subscribe for continued access to advanced functionalities.",
+      "Test Status": "pass",
+      "similarity_score": 0.8217589049204046
+    },
+    {
+      "Question": "Do customers need to download a mobile app to use SmartChat AI?",
+      "SmartAI Ans": "No, customers do not need to download a mobile app to use SmartChat AI. It operates entirely through a live chat interface on the restaurant's website.",
+      "Actual Ans": "No, customers do not need to download any mobile app. SmartChat AI operates through a live chat interface on the restaurant\u2019s website.",
+      "Test Status": "pass",
+      "similarity_score": 0.957725978447912
+    },
+    {
+      "Question": "What are the subscription options offered by SmartChat AI?",
+      "SmartAI Ans": "SmartChat AI offers two subscription options:\n\n1. **Free Subscription**: \n   - Available to all users including individual customers and restaurants.\n   - Provides basic functionality for restaurants to establish their presence on the platform.\n   - Allows restaurants to manage their basic profile, interact with customers through AI-enhanced chat, and utilize essential features for customer engagement and service.\n\n2. **Premium Subscription**: \n   - Designed for restaurants seeking advanced functionalities.\n   - Includes enhanced features such as multiple photo uploads, extended promotion capabilities, and comprehensive analytics to track customer interactions and preferences.\n   - Requires a subscription fee to access these enhanced features.",
+      "Actual Ans": "SmartChat AI offers a free subscription with basic features and a premium subscription with enhanced functionalities tailored for restaurants.",
+      "Test Status": "pass",
+      "similarity_score": 0.904663540897146
+    },
+    {
+      "Question": "What functionalities does the SmartChat AI Premium subscription provide?",
+      "SmartAI Ans": "The SmartChat AI Premium subscription provides enhanced features designed for restaurants seeking advanced functionalities. These include:\n\n- Access to multiple photo uploads\n- Extended promotion capabilities\n- Comprehensive analytics to track customer interactions and preferences\n\nThe Premium subscription aims to offer more tools to optimize customer engagement and deepen market presence.",
+      "Actual Ans": "The Premium subscription provides access to multiple photo uploads, extended promotion capabilities, and comprehensive analytics for tracking customer interactions.",
+      "Test Status": "fail",
+      "similarity_score": 0.7204046565188529
+    },
+    {
+      "Question": "What information does SmartChat AI collect from users?",
+      "SmartAI Ans": "SmartChat AI collects the following types of information from users:\n\n1. **Public Profile Information**: Users may add a profile picture or other identifying details to help others connect with them.\n   \n2. **For Business Users**: Additional information may be required to establish a store profile, including payment details for transactions.\n\n3. **Interacting with the Service**: Content shared by users, such as posts and promotions, is collected, with a reminder that shared content can be saved or redistributed by others.\n\n4. **Support and Communication**: Details provided by users when they reach out for support or contact SmartChat AI are collected.\n\n5. **Usage Information**: Collected when users utilize the services, aimed at improving functionality and user experience.\n\n6. **Location-Based Features**: Information regarding users' locations may be collected to enhance the dining experience by providing relevant information and promotions.\n\n7. **Multimedia Integration**: Users may share images or videos, which are used to enrich customer engagement.\n\n8. **Information from Third Parties**: Information about users that other users provide when they use SmartChat AI services, such as contacts from a user's phonebook.\n\nThese categories of information help SmartChat AI enhance communication and service experiences within the restaurant industry.",
+      "Actual Ans": "SmartChat AI collects information such as user account details, interaction history, and device information to enhance user experience and personalize services.",
+      "Test Status": "fail",
+      "similarity_score": 0.7217488728329444
+    },
+    {
+      "Question": "How does SmartChat AI ensure user privacy?",
+      "SmartAI Ans": "SmartChat AI ensures user privacy by implementing several key practices:\n\n1. **Account Information Storage**: They only retain basic account details (like name, phone number, and email address) and contact lists as long as the account is active, which is essential for providing personalized chat services.\n\n2. **Continuous Data Updating**: SmartChat AI continually updates data regarding user preferences and interactions to refine and personalize the chat experience, while still respecting user privacy.\n\n3. **Account Deletion**: Users can request account deletion, and upon doing so, SmartChat AI will remove most of the collected information. They also reach out to users before finalizing deletion in case users change their mind.\n\n4. **Deletion Time Frame**: While deletions are processed automatically, certain legal obligations or investigations may require SmartChat AI to retain specific data for a longer period, ensuring compliance with regulations. \n\nThese measures reflect SmartChat AI's commitment to maintaining user privacy while providing efficient service.",
+      "Actual Ans": "SmartChat AI is committed to user privacy and adheres to regulations, ensuring that data handling practices are transparent and respectful of user preferences.",
+      "Test Status": "fail",
+      "similarity_score": 0.7666380700353297
+    },
+    {
+      "Question": "What is the age requirement to use SmartChat AI services?",
+      "SmartAI Ans": "You must be at least 13 years old to use SmartChat AI services.",
+      "Actual Ans": "Users must be at least 13 years old to use SmartChat AI services.",
+      "Test Status": "pass",
+      "similarity_score": 0.9624245519055254
+    }
+  ]
+}

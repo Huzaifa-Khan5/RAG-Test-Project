@@ -1,0 +1,120 @@
+{
+  "Business ID": "production_12",
+  "total_tests": 16,
+  "Passed Tests": 16,
+  "Failed Tests": 0,
+  "Details": [
+    {
+      "Question": "What are some appetizers offered at Sisters Thai?",
+      "SmartAI Ans": "Some appetizers offered at Sisters Thai include:\n\n1. Crispy Spring Rolls - Veggie rolls deep-fried and served with a sweet & sour sauce.\n2. Garden Roll - Rice paper roll with fresh greens served with homemade sauce.\n3. Tofu Tod - Fried bean curd served with sweet & sour sauce and crushed peanuts.\n4. Curry Puff - Fried Thai style chicken and potatoes pastry with house sauce.\n5. Fried Calamari - Slices of squid lightly battered and fried, served with sweet & sour sauce.\n6. Tod Mun - Spicy fried curry fish cake served with cucumber sauce with ground peanut.\n7. Shrimp Cake - Homemade breaded shrimp cake served with tangy plum sauce.\n8. Bikini Shrimp - Shrimp wrapped with spring roll skin and deep-fried, served with sweet & sour sauce.\n9. Satay - Grilled skewered chicken marinated and served with peanut sauce.\n10. Crispy Wontons - Thai style crispy fried wontons.\n11. Steamed Dumplings - Steamed dumplings stuffed with pork and shrimp, served with sweet soy sauce.",
+      "Actual Ans": "Some appetizers offered at Sisters Thai include Crispy Spring Rolls, Garden Roll, Tofu Tod, Curry Puff, Fried Calamari, Tod Mun, Shrimp Cake, Bikini Shrimp, Satay, Crispy Wontons, Steamed Dumplings, Angel Wings, and Roti Green Curry.",
+      "Test Status": "pass",
+      "similarity_score": 0.9164210237775099
+    },
+    {
+      "Question": "How much does the Crispy Spring Rolls cost?",
+      "SmartAI Ans": "The Crispy Spring Rolls cost $9.00.",
+      "Actual Ans": "The Crispy Spring Rolls cost $9.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9999999999999982
+    },
+    {
+      "Question": "What is the price of the Steamed Dumplings?",
+      "SmartAI Ans": "The price of the Steamed Dumplings is $11.00.",
+      "Actual Ans": "The Steamed Dumplings cost $11.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9565198914718049
+    },
+    {
+      "Question": "What type of soup is available at Sisters Thai?",
+      "SmartAI Ans": "The types of soup available at Sisters Thai are:\n\n1. Tom Ka - Coconut milk soup with galangal, mushrooms, and lime juice.\n2. Tom Yum - Lemon grass soup, fresh mushrooms with Thai spices.\n3. Poh Tak Soup - Spicy seafood, lemon grass, basil leaves, tomatoes, and mushrooms.\n4. Wonton Soup - Shrimp and pork wonton and cabbage in clear broth.\n5. Vegetable Soup - Seasonal vegetable in clear broth.",
+      "Actual Ans": "Soups available at Sisters Thai include Tom Ka, Tom Yum, Poh Tak Soup, Wonton Soup, and Vegetable Soup.",
+      "Test Status": "pass",
+      "similarity_score": 0.9209901174615861
+    },
+    {
+      "Question": "What are the ingredients in the Tom Ka soup?",
+      "SmartAI Ans": "The ingredients in the Tom Ka soup are coconut milk, galangal, mushrooms, and lime juice.",
+      "Actual Ans": "The Tom Ka soup contains coconut milk, galangal, mushrooms, and lime juice.",
+      "Test Status": "pass",
+      "similarity_score": 0.9188788678511249
+    },
+    {
+      "Question": "What is the price of the Green Curry?",
+      "SmartAI Ans": "The price of the Green Curry is $16.00.",
+      "Actual Ans": "The Green Curry costs $16.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9679739308069619
+    },
+    {
+      "Question": "What are some of the noodle dishes on the menu?",
+      "SmartAI Ans": "Some of the noodle dishes on the menu include:\n\n1. **Drunken Noodles** - Wide rice noodles, chili, garlic, basil leaves, onions, and tomatoes.\n2. **Pad Lad Na** - Saut\u00e9ed with Chinese broccoli in light brown gravy on top of pan-fried wide rice noodles.\n3. **Pad See Ew** - Pan-fried with fresh rice noodles, egg, and Chinese broccoli in dark brown sauce.\n4. **Kua Gai Noodle** - Pan-fried fresh rice noodles with chicken, egg, and calamari served with Sri\u2013 Racha Chili Sauce.\n5. **Suki-Yaki Talay** - Bean Thread Noodles, seafood, egg, cabbage with house special sauce.\n6. **Yen-Ta-Fo** - Pink Noodle soup with seafood, tofu and Chinese broccoli.\n7. **Bamee Poo Moo - Dang** - Egg noodle with roasted pork, crabmeat and Chinese broccoli.\n8. **Boat Noodle Soup** - A noodle soup dish.\n9. **Noodle Tom Yum** - A noodle dish with Tom Yum flavor.\n10. **Khao Soi** - Northern Thai-inspired chicken curry soup served with crispy egg noodles.",
+      "Actual Ans": "Some noodle dishes on the menu include Pad Thai, Drunken Noodles, Pad Lad Na, Pad See Ew, and Kua Gai Noodle.",
+      "Test Status": "pass",
+      "similarity_score": 0.8399145439425599
+    },
+    {
+      "Question": "How much does the Thai Ice Tea cost?",
+      "SmartAI Ans": "The Thai Ice Tea costs $5.00.",
+      "Actual Ans": "The Thai Ice Tea costs $5.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9999999999999984
+    },
+    {
+      "Question": "Is the Sticky Rice available at Sisters Thai?",
+      "SmartAI Ans": "No, the Sticky Rice is sold out at Sisters Thai.",
+      "Actual Ans": "No, Sticky Rice is currently sold out.",
+      "Test Status": "pass",
+      "similarity_score": 0.8397420440952912
+    },
+    {
+      "Question": "What desserts are offered at Sisters Thai?",
+      "SmartAI Ans": "The desserts offered at Sisters Thai include:\n\n1. Belgian Chocolate Mousse - $7.00\n2. Creme Brulee Cheesecake - $7.00\n3. Sticky Rice with Mango - $8.00\n4. Toffee Cake with Ice Cream - $8.00\n5. Lychee Cheese Cake - $7.00\n6. Strawberry Short Cake - $7.00\n7. Thai Tea Soft Cake - $7.00\n\nPlease note that some items, such as the Red Velvet Cupcake, Chocolate Cupcake, Key Lime Cheesecake, Fried Banana and Ice Cream, and Matcha Green Tea Chocolate Cake, are sold out.",
+      "Actual Ans": "Desserts offered include Strawberry Short Cake, Thai Tea Soft Cake, Belgian Chocolate Mousse, Creme Brulee Cheesecake, Sticky Rice with Mango, and Fried Banana and Ice Cream.",
+      "Test Status": "pass",
+      "similarity_score": 0.8078045923831707
+    },
+    {
+      "Question": "What is the price of the Belgian Chocolate Mousse?",
+      "SmartAI Ans": "The price of the Belgian Chocolate Mousse is 7.00.",
+      "Actual Ans": "The Belgian Chocolate Mousse costs $7.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9312856591714636
+    },
+    {
+      "Question": "What beverages are available at Sisters Thai?",
+      "SmartAI Ans": "The beverages available at Sisters Thai include:\n\n- Thai Ice Tea ($5.00)\n- Thai Ice Coffee ($5.00)\n- Ice ($3.00)\n- Soda ($3.00)\n- Thai Tea Freeze ($7.00)\n- Thai Coffee Freeze ($7.00)\n- Lemonade ($6.00)\n- Green Tea Freeze ($7.00)\n- Pineapple Freeze ($7.00)\n- Lychee Freeze ($7.00)\n- Milo Volcano ($7.00)\n- Strawberry Lemonade ($6.00)\n- Sisters Punch ($6.00)\n- Coconut Juice ($6.00)\n- Mango Freeze ($7.00)\n- Strawberry Freeze ($7.00)",
+      "Actual Ans": "Beverages available include Thai Ice Coffee, Soda, Lemonade, and various Freeze drinks such as Thai Tea Freeze, Green Tea Freeze, and Mango Freeze.",
+      "Test Status": "pass",
+      "similarity_score": 0.8059626020299153
+    },
+    {
+      "Question": "What is included in the Chef's Recommendation section?",
+      "SmartAI Ans": "The Chef's Recommendation section includes the following dishes:\n\n1. **Crispy Duck Curry** - Boneless duck simmered in spicy red curry with coconut milk, pineapple, and cherry tomatoes.\n\n2. **Crispy Duck Ka Pow** - Boneless roasted duck deep-fried in a light batter, topped with a spicy chili garlic sauce and sprinkled with crispy basil leaves.\n\n3. **Honey Roasted Duck** - Half boneless roasted duck in black soy sauce.\n\n4. **Pottery Shrimp** - Shrimps with glass noodles, shiitake mushroom, Napa cabbage, ginger, onions, scallions, and crab meat.\n\n5. **Crispy Filet Fish** - Deep-fried crispy fillet tilapia with a tangy spicy chili garlic sauce and basil leaves.",
+      "Actual Ans": "In the Chef's Recommendation section, dishes like Crispy Duck Curry, Crispy Duck Ka Pow, Honey Roasted Duck, Pottery Shrimp, and Crispy Filet Fish are included.",
+      "Test Status": "pass",
+      "similarity_score": 0.9225647773049888
+    },
+    {
+      "Question": "How much does the Crabmeat Fried Rice cost?",
+      "SmartAI Ans": "The Crabmeat Fried Rice costs $20.00.",
+      "Actual Ans": "The Crabmeat Fried Rice costs $20.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9999999999999974
+    },
+    {
+      "Question": "What is the price of the Sisters Fried Rice?",
+      "SmartAI Ans": "The price of the Sisters Fried Rice is $17.00.",
+      "Actual Ans": "The Sisters Fried Rice costs $17.00.",
+      "Test Status": "pass",
+      "similarity_score": 0.9608393655978441
+    },
+    {
+      "Question": "What are the ingredients in the Honey Roasted Duck?",
+      "SmartAI Ans": "The ingredients in the Honey Roasted Duck are half boneless roasted duck in black soy sauce.",
+      "Actual Ans": "The Honey Roasted Duck is a half boneless roasted duck in black soy sauce.",
+      "Test Status": "pass",
+      "similarity_score": 0.9148859071158939
+    }
+  ]
+}

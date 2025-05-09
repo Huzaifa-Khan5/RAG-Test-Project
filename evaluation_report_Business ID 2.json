@@ -1,0 +1,78 @@
+{
+  "Business ID": "Business ID 2",
+  "total_tests": 10,
+  "Passed Tests": 10,
+  "Failed Tests": 0,
+  "Details": [
+    {
+      "Question": "What is prompt engineering, and why is it important for Large Language Models (LLMs)?",
+      "SmartAI Ans": "Prompt engineering, also known as In-Context Prompting, refers to methods for communicating with LLMs to guide their behavior and achieve desired results without modifying the model's weights.  It's an empirical science, meaning its effectiveness varies significantly across models and requires extensive experimentation.  The core goal is to align the LLM's output with the desired outcome and improve its controllability.\n",
+      "Actual Ans": "Prompt engineering refers to methods for communicating with LLMs to guide their behavior and achieve desired outcomes without modifying the model's weights. It's crucial because it allows users to effectively steer LLMs towards specific tasks and improve their performance significantly.",
+      "Test Status": "pass",
+      "similarity_score": 0.9173038344252086
+    },
+    {
+      "Question": "Explain the difference between zero-shot and few-shot learning in prompt engineering.",
+      "SmartAI Ans": "Zero-shot learning involves simply providing the task text to the model and requesting results.  Few-shot learning, in contrast,  presents examples in the prompt to explain the task to the model.\n",
+      "Actual Ans": "Zero-shot learning involves directly providing the task to the LLM without any examples. Few-shot learning provides a set of high-quality input-output examples to guide the model, leading to better performance but at the cost of increased token consumption.",
+      "Test Status": "pass",
+      "similarity_score": 0.8841414277832216
+    },
+    {
+      "Question": "What are some biases that can affect the performance of few-shot learning, and how can they be mitigated?",
+      "SmartAI Ans": "Based on the provided text, three biases can affect the performance of few-shot learning in LLMs:\n\n1.  **Majority label bias:** This occurs when the distribution of labels among the examples is unbalanced.\n2.  **Recency bias:** The model tends to repeat the label at the end of the examples.\n3.  **Common token bias:** The LLM produces common tokens more often than rare tokens.\n\nTo mitigate majority label bias, a method is proposed to calibrate the label probabilities output by the model to be uniform when the input string is N/A.  The text does not offer mitigation strategies for recency or common token bias.\n",
+      "Actual Ans": "Biases include majority label bias (unbalanced label distribution), recency bias (model repeating the last label), and common token bias (favoring common tokens).  Mitigation strategies involve techniques like calibrating label probabilities and carefully selecting and ordering examples.",
+      "Test Status": "pass",
+      "similarity_score": 0.8343161797367025
+    },
+    {
+      "Question": "How does instruction prompting differ from few-shot learning, and what are its advantages?",
+      "SmartAI Ans": "Instruction prompting differs from few-shot learning in that few-shot learning uses examples to explain the intent to the model, while instruction prompting gives the instruction directly.  The advantage of instruction following fine-tuning is that it improves the model's alignment with human intention and reduces the cost of communication compared to few-shot learning, which can be expensive in terms of token usage and limits input length.\n",
+      "Actual Ans": "Instruction prompting directly provides instructions to the LLM instead of relying on examples.  Advantages include reduced token consumption and improved alignment with human intent, especially when using models fine-tuned for instruction following.",
+      "Test Status": "pass",
+      "similarity_score": 0.8683770701784101
+    },
+    {
+      "Question": "Describe the Chain-of-Thought (CoT) prompting technique and its benefits.",
+      "SmartAI Ans": "Chain-of-Thought (CoT) prompting generates a sequence of short sentences detailing the reasoning steps leading to a final answer.  Its benefit is more noticeable in complex reasoning tasks and when using large language models (over 50B parameters).  Simple tasks only see slight improvement from CoT prompting.\n",
+      "Actual Ans": "CoT prompting encourages LLMs to generate step-by-step reasoning chains before arriving at a final answer. This is particularly beneficial for complex reasoning tasks and larger language models.",
+      "Test Status": "pass",
+      "similarity_score": 0.9092997220472648
+    },
+    {
+      "Question": "What are some methods for automatically designing prompts?",
+      "SmartAI Ans": "Methods for automatically designing prompts include optimizing prompts as trainable parameters in the embedding space via gradient descent (AutoPrompt, Prefix-Tuning, P-tuning, and Prompt-Tuning).  Another method, APE (Automatic Prompt Engineer), searches a pool of model-generated instruction candidates and filters them based on a score function to select the best candidate.  A third approach involves prompting the model to generate instruction candidates from input-output pairs and iteratively improving them using Monte Carlo search.  Finally, a three-step augment-prune-select process can be used to automatically construct chain-of-thought prompts.\n",
+      "Actual Ans": "Methods include treating prompts as trainable parameters and optimizing them via gradient descent (AutoPrompt, Prefix-Tuning, P-tuning, Prompt-Tuning), and searching over a pool of model-generated instruction candidates and filtering based on a score function (APE).",
+      "Test Status": "pass",
+      "similarity_score": 0.8880584203645102
+    },
+    {
+      "Question": "How can retrieval methods enhance the capabilities of LLMs?",
+      "SmartAI Ans": "Retrieval methods enhance LLMs by allowing them to access and incorporate information from external knowledge bases or sources, such as the latest knowledge beyond the model's training cutoff or internal/private knowledge.  This is crucial for tasks requiring up-to-date information, as the model would otherwise lack the necessary context.  The accuracy of this process depends on both the retrieval and generation steps.  One example is using Google Search to retrieve documents, extract relevant paragraphs based on TF-IDF cosine similarity, and then incorporating the most relevant paragraph into the prompt for improved answer generation.\n",
+      "Actual Ans": "Retrieval methods allow LLMs to access external knowledge bases or up-to-date information not present during pretraining. This is particularly useful for tasks requiring current knowledge or information beyond the model's cutoff point.",
+      "Test Status": "pass",
+      "similarity_score": 0.8620862079098944
+    },
+    {
+      "Question": "Explain the concept of using programming languages in conjunction with LLMs for problem-solving.",
+      "SmartAI Ans": "LLMs can be used with programming languages to solve problems by having the LLM generate programming language statements (like Python code) to address natural language reasoning problems.  The solution is then executed by a runtime environment, such as a Python interpreter. This separates complex computation and reasoning, relying on the LLM's coding abilities.  This approach is used in methods like PAL (Program-aided language models) and PoT (Program of Thoughts prompting).\n",
+      "Actual Ans": "Techniques like PAL and PoT involve LLMs generating code to solve natural language reasoning problems, offloading complex computations to a runtime interpreter. This decouples reasoning from complex calculations.",
+      "Test Status": "pass",
+      "similarity_score": 0.8473496703966448
+    },
+    {
+      "Question": "What are Tool Augmented Language Models (TALMs), and how do they work?",
+      "SmartAI Ans": "TALMs (Tool Augmented Language Models) are language models enhanced with text-to-text API calls.  The language model generates tool-call and tool input text based on the task input text to create API call requests.  When a result appears, the specified tool API is used, and the returned result is added to the text sequence.  The final output is then generated.\n",
+      "Actual Ans": "TALMs extend LLMs by allowing them to interact with external APIs. The LLM generates API calls, receives the results, and incorporates them into its output.  Self-play methods are often used to iteratively improve the model's ability to use tools effectively (e.g., Toolformer).",
+      "Test Status": "pass",
+      "similarity_score": 0.869766835403159
+    },
+    {
+      "Question": "What are some resources mentioned in the article for learning more about prompt engineering?",
+      "SmartAI Ans": "The provided text mentions the following resources for learning more about prompt engineering:  OpenAI Cookbook, LangChain, Prompt Engineering Guide repo, learnprompting.org, PromptPerfect, and Semantic Kernel.\n",
+      "Actual Ans": "The article mentions the OpenAI Cookbook, LangChain, a Prompt Engineering Guide repository, learnprompting.org, PromptPerfect, and Semantic Kernel as useful resources for further learning.",
+      "Test Status": "pass",
+      "similarity_score": 0.9472625078265092
+    }
+  ]
+}
